@@ -12,6 +12,7 @@
         }
         elseif ($x == 2) {
             echo "Ammar is kinda funny";
+        }
         elseif ($x == 2) {
             echo "Ammar is not short";
         }
@@ -45,7 +46,6 @@
                 echo "There is no answer";
     
         }
-        <link rel="stylesheet" href="style.css"> 
-
+    
 
     ?>

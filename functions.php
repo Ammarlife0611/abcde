@@ -8,4 +8,3 @@ echo str_replace("Ammar","Hammudi","Hola Ammar");
   </body>
 </html>
 
-<link rel="stylesheet" href="style.css"> 
