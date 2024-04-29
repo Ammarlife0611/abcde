@@ -41,6 +41,25 @@
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
+      <div class="header-login">
+          <?php
+          if (isset($_SESSION['userId'])) {
+            echo '<form action="includes/logout.inc.php" method="post">
+            <button type="submit" name="logout-submit">Logout</button>
+          </form>';
+        }
+        else {
+            echo '<form action="includes/login.inc.php" method="post">
+            <input type="text" name="mailuid" placeholder="Usernam/E-mail...">
+            <input type="text" name="pwd" placeholder="Password...">
+            <button type="submit" name="login-submit">Login</button>
+          </form>
+          <a href="signup.php">Signup</a>';
+        }
+          ?>
+        
+      
+        </div>
     </div>
   </div>
 </nav>
